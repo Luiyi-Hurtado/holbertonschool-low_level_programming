@@ -12,8 +12,10 @@
 
 int main(void)
 {
-	char Mystr[] = "and that piece of art is useful" - Dora Korpar, 2015-10-19";
+	char Mystr[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	putchar(Mystr);
+
+	return (1)
 }
 
