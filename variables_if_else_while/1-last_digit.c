@@ -6,7 +6,7 @@
 *main - Entry point
 *
 *Descrption: print last number of the random number
-*if last number is greater than 5 print Last digit of $n 
+*if last number is greater than 5 print Last digit of $n
 *is $ld and is greater than 5.
 *if last number is 0 print Last digit of $n is $ld  and is 0.
 *if last number is less than 6 and not 0 print Last digit
@@ -20,9 +20,9 @@ int main(void)
 	int n, ls;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;	
+	n = rand() - RAND_MAX / 2;
 	ls = n % 10;
-	
+
 	if (ls > 5)
 	{
 	printf("Last digit of %d is %d and is greater than 5\n", n, ls);
