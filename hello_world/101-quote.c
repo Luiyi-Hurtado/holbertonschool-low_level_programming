@@ -16,6 +16,6 @@ int main(void)
 
 	putchar(Mystr);
 
-	return (1)
+	return (1);
 }
 
