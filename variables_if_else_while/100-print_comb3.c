@@ -3,7 +3,9 @@
 /**
 *main - Entry point
 *
-*
+*Description: print the all possible
+*combinations of the two digits can only
+*use putchar.
 *
 *Return: 0
 */
@@ -20,9 +22,15 @@ int main(void)
 			{
 				putchar(nO);
 				putchar(nT);
-				}
+			}
+			if (nO != '8' && nT > nO)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-
 	}
-	return (0);
+
+	putchar('\n');
+        return (0);
 }
