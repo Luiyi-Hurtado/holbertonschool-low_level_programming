@@ -11,7 +11,7 @@ int main(void)
 {
 	int nuo, nut, nuth;
 
-	for (nuo  = '0' ; nuo <= '9' ; nuo++ )
+	for (nuo  = '0' ; nuo <= '9' ; nuo++)
 	{
 		for (nut = '0' ; nut <= '9' ; nut++)
 		{
@@ -22,7 +22,7 @@ int main(void)
 					putchar(nuo);
 					putchar(nut);
 					putchar(nuth);
-			
+
 					if (nuo < '7' && nut < nuth)
 					{
 						putchar(',');
