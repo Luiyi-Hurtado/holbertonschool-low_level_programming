@@ -15,24 +15,24 @@
 
 int print_sign(int n)
 {
-	int R = 0;
+	int R;
 
-	if (n > 40)
+	if (n > 0)
 	{
 		R = 1;
 		_putchar('+');
 	}
 
-	if (n < 40)
-	{
-		R = -1;
-		_putchar('-');
-	}
-
-	if (n == 40)
+	else if (n == 0)
 	{
 		R = 0;
 		_putchar('0');
+	}
+
+	if (n < 0)
+	{
+		R = -1;
+		_putchar('-');
 	}
 
 	return (R);
