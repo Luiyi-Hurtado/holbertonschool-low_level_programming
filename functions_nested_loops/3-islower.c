@@ -2,12 +2,10 @@
 
 /**
 *_islower - Entry point
-*
+*@c: is int
 *Description: use the prototype for
 *retunr 1 if lowercase or print 0
 *is not lowercase
-*
-*Parameter: c is int
 *
 *Return: 0
 */
