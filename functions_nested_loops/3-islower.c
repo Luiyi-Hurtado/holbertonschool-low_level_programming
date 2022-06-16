@@ -14,17 +14,12 @@
 
 int _islower(int c)
 {
+	int v = 0;
 
-	if (c >= 97 || c <= 122)
+	if (c >= 97 && c <= 122)
 	{
-		_putchar('1');
+		v = 1;
 	}
 
-	else
-	{
-		_putchar('0');
-	}
-
-	_putchar('\n');
-	return (0);
+return (v);
 }
