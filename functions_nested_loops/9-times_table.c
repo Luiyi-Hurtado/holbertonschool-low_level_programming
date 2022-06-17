@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
+*main - Entry point
 *
+*Description: print times table 9
 *
-*
-*
-*
-*
-*
-*
-*
+*Return: 0
 */
 
 void times_table(void)
