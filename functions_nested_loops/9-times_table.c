@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*main - Entry point
+*times_table - Entry point
 *
 *Description: print times table 9
 *
@@ -25,15 +25,15 @@ void times_table(void)
 				_putchar(r / 10 + '0');
 				_putchar(r % 10 + '0');
 			}
-			else 
+			else
 			{
-				if(o != 0)
+				if (o != 0)
 				{
 					_putchar(' ');
 				}
 				_putchar(r + '0');
 			}
-			if(o != 9)
+			if (o != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
