@@ -3,7 +3,7 @@
 /**
 *_abs - Entry point
 *
-*@int: is int
+*@r: is int
 *
 *Description:
 *
