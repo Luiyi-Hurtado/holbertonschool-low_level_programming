@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *print_to_98 - Entry point
 *
@@ -15,12 +16,11 @@ void print_to_98(int n)
 		{
 			if (n != 98)
 			{
-				_putchar(n);
+				printf("%d, ", n);
 			}
 			else
 			{
-				_putchar(n);
-				_putchar('\n');
+				printf("%d\n", n);
 			}
 		}
 	}	
@@ -30,12 +30,11 @@ void print_to_98(int n)
 		{
 			if (n != 98)
 			{
-				_putchar(n);
+				printf("%d, ", n);
 			}
 			else
 			{
-				_putchar(n);
-				_putchar('\n');
+				printf("%d\n", n);
 			}
 		}
 	}
