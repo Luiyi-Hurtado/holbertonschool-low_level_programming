@@ -4,7 +4,7 @@
 *print_triangle - Entry point
 *Description: print the triangle and size
 *is the size of the triangle
-@size: is type int.
+*@size: is type int.
 *Return: 0
 */
 
