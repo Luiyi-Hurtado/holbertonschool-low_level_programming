@@ -5,7 +5,7 @@
 *@c: is a type int
 *Description: the script returns 1 if the letters
 *is to uppercase and returns 0 if is otherwise
-*Returns: 0
+*Return: 0
 */
 int _isupper(int c)
 {
