@@ -1,14 +1,10 @@
 #include "main.h"
 
 /**
-*
-*
-*
-*
-*
-*
-*
-*
+*print_line - Entry point
+*@c: is to type int
+*Description: print line
+*Return: 0
 */
 
 void print_line(int n)
