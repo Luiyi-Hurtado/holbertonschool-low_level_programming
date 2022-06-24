@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ *_strcpy - Entry point
+ *@dest: pointer is char
+ *@src: pointer is char
+ *Return: copy string in dest
  */
 char *_strcpy(char *dest, char *src)
 {
