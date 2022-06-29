@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sptrspn - Entry point
+ * _strspn - Entry point
  *@s: pointer is type char
  *@accept: pointer is type hcar
  *Description: length of a prefix substring
