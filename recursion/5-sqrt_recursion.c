@@ -25,8 +25,9 @@ int Square_Root(int n, int i)
  *Return: returns square root of a number
  */
 int _sqrt_recursion(int n)
-{                                                                                                                                	if (n < 0)
+{
+	if (n < 0)
 		return (-1);
 
 	return (Square_Root(n, 1));
- }
+}
