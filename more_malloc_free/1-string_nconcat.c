@@ -7,6 +7,7 @@
  *string_nconcat - concatenates two strings
  *@s1: first string
  *@s2: second string
+ *@n: numbers of characters
  *
  * Return: concatenatd string
  */
@@ -18,11 +19,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 		s1 = "";
 	else
-		for (i = 0 ; s1[i] != '\0' ; i++) {}
+		for (i = 0 ; s1[i] != '\0' ; i++)
+		{
+		}
 	if (s2 == NULL)
 		s2 = "";
 	else
-		for (j = 0 ; s2[j] != '\0' ; j++) {}
+		for (j = 0 ; s2[j] != '\0' ; j++)
+		{
+		}
 
 	if (j > n)
 		j = n;
