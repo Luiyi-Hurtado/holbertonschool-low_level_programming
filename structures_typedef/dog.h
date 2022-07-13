@@ -5,7 +5,7 @@
  *struct dog - inforamtion about dogs
  *@name: name of the dog. First member
  *@age: ege of the dog. Second member
- *@owner: owner of the dog. Third member 
+ *@owner: owner of the dog. Third member
  *
  * Description: all information about the dogs
  */
@@ -21,9 +21,6 @@ struct dog
  */
 typedef struct dog dog_t;
 
-/**
- *prototype of the task
- */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
