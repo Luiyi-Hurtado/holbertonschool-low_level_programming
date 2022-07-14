@@ -17,7 +17,7 @@ typedef struct op
 } op_t;
 
 /* macros valores constantes */
-#define ERROR_MESSAGE ("ERROR\n")
+#define ERROR_MESSAGE ("Error\n")
 #define EXIT_BY_ZERO (100)
 #define EXIT_NULL_OPERATOR (99)
 #define EXIT_INVALID_ARG (98)
