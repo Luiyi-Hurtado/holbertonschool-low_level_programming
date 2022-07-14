@@ -1,4 +1,11 @@
 #include "3-calc.h"
+/**
+ *main - result
+ *@argc: argument count
+ *@argv: argument vector
+ *
+ * Return: always 0
+ */
 
 int main(int argc, char **argv)
 {
