@@ -4,7 +4,7 @@
  *op_add - addition
  *@a: num1
  *@b: num2
- *return: add
+ *Return: add
  */
 
 int op_add(int a, int b)
@@ -16,7 +16,7 @@ int op_add(int a, int b)
  *op_sub - substration
  *@a: num1
  *@b: num2
- *return: sum
+ *Return: sum
  */
 int op_sub(int a, int b)
 {
@@ -27,7 +27,7 @@ int op_sub(int a, int b)
  *op_mul - multiplication
  *@a: num1
  *@b: num2
- *return: mul
+ *Return: mul
  */
 int op_mul(int a, int b)
 {
@@ -38,7 +38,7 @@ int op_mul(int a, int b)
  *op_div - div
  *@a: num1
  *@b: num2
- *return: div
+ *Return: div
  */
 int op_div(int a, int b)
 {
@@ -50,7 +50,7 @@ int op_div(int a, int b)
  *op_mod - modulus
  *@a: num1
  *@b: num2
- *return: mod
+ *Return: mod
  */
 int op_mod(int a, int b)
 {
