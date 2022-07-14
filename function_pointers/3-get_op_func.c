@@ -1,17 +1,11 @@
 #include "3-calc.h"
 
-int includes(char *string, char *substring)
-{
-	if (string == NULL || substring == NULL)
-		return (0);
-	if (*string == '\0' || *substring == '\0')
-		return (1);
-	if (*string == *substring)
-		return (includes(string + 1, substring + 1));
-
-	return (0);
-}
-
+/**
+ *get_op_func - return get_func
+ *@s: pointer sing
+ *
+ * Return: return get_func
+ */
 int (*get_op_func(char *s))(int, int)
 {
 	int i = 0;
@@ -27,7 +21,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while(ops[i].op != NULL)
 	{
-		if (includes(ops[i].op, s))
+		if (strcmp(s, ops[i].op) == 0)
 			return (ops[i].f);
 		i += 1;
 	}
