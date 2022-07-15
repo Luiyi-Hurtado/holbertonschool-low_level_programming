@@ -22,5 +22,6 @@ int sum_them_all(const unsigned int n, ...)
 	else
 		return (0);
 
+	va_end(ap);
 	return (sum);
 }
