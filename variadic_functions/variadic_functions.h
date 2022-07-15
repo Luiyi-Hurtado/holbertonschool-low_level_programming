@@ -1,0 +1,19 @@
+#ifndef _VARIADIC_FUNCTIONS_H_
+#define _VARIADIC_FUNCTIONS_H_
+
+/* importing */
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
+/* types and structures */
+
+/* macros const values */
+
+/* prototypes */
+
+int sum_them_all(const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...);
+void print_strings(const char *separator, const unsigned int n, ...);
+void print_all(const char * const format, ...);
+
+#endif /* _VARIADIC_FUNCTIONS_H_ */
