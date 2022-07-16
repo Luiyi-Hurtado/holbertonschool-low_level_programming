@@ -13,13 +13,11 @@ void print_all(const char * const format, ...)
 	int i = 0;
 
 	va_start(args, format);
-
 	while (format == NULL)
 	{
 		printf("\n");
 		return;
 	}
-
 	while (format[i])
 	{
 		switch (format[i])
@@ -31,7 +29,7 @@ void print_all(const char * const format, ...)
 				printf("%d", va_arg(args, int));
 				break;
 			case 'f':
-				printf("%f",(float)va_arg(args, double));
+				printf("%f", (float)va_arg(args, double));
 				break;
 			case 's':
 				pass = va_arg(args, char *);
