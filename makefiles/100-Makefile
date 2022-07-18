@@ -1,20 +1,22 @@
+# The same Makefile with more requirements and restrictions.
+
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm
+RM = rm -f
+RM_2_ = $(RM)
 CFLAGS = -Wall -Werror -Wextra -pedantic
+CFLAGS_2_ = $(CFLAGS)
 
-all: $(OBJ)
-	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
-
-.PHONY: clean oclean fclean re
+all: m.h $(OBJ)
+    $(CC) $(CFLAGS_2_) $(OBJ) -o $(NAME)
 
 clean:
-	$(RM) -f *~ $(NAME)
+	$(RM_2_) *~ $(NAME)
 
 oclean:
-	$(RM) -f $(OBJ)
+	$(RM_2_) $(OBJ)
 
 fclean: clean oclean
 
