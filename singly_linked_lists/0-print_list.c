@@ -1,0 +1,24 @@
+#include "lists.h"
+
+/**
+ *print_list - print all the elements
+ *@h: header pointer
+ *
+ *Return: always 0
+ */
+size_t print_list(const list_t *h)
+{
+	unsigned int i = 0;
+
+	while (h != NULL)
+	{
+		if (h == NULL)
+			printf("[0] (nil)");
+		else
+			printf("[%d] %s\n", h->len, h->str);
+		i++;
+		h = h->next;
+	}
+	return (i);
+}
+
