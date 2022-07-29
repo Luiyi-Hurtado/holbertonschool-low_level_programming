@@ -4,21 +4,21 @@
  *pop_listint - delte the head node
  *@head: header pointer of the linked list
  *
- *Retrun: head node data
+ *Return: head node data
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *newNode;
+	listint_t *tmp;
 	int data = 0;
 
 	if (!head)
 		return (0);
 
-	newNode = *head;
-	*head = (*head)->next;
+	tmp = *head;
 	data = (*head)->n;
+	*head = (*head)->next;
 
-	free(newNode);
+	free(tmp);
 
 	return (data);
 }
