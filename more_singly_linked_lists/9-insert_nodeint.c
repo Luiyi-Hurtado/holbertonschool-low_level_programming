@@ -2,9 +2,9 @@
 
 /**
  *insert_nodeint_at_index - inserts a new node at a given position.
- *@head:
- *@idx:
- *@n:
+ *@head: header pointer of the linked list
+ *@idx: index of the linked list
+ *@n: input arguments of the new node
  *
  *Return: NULL if newNode is NULL or inserts a new node at a given position
  */
@@ -15,7 +15,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	unsigned int count = 0;
 
 	newNode = malloc(sizeof(listint_t));
-	if(!newNode)
+	if (!newNode)
 		return (NULL);
 
 	newNode->n = n;
