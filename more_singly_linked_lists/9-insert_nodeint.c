@@ -27,7 +27,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (newNode);
 	}
 
-	for (count = 0; count < idx; count++)
+	for (count = 0; count < idx - 1; count++)
 	{
 		if (!copy_h || !copy_h->next)
 			return (NULL);
