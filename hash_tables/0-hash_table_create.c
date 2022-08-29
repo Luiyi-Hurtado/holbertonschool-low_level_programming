@@ -1,4 +1,5 @@
 #include "hash_tables.h"
+
 /**
  *hash_table_create - Create memory space of hash tables
  *@size: Hash table index
