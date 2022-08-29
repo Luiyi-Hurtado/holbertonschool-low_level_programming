@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 
 /**
- *hash_table_create - Create memory space of hash tables
- *@size: Hash table index
+ * hash_table_create - Create memory space of hash tables
+ * @size: Hash table index
  *
- *Return: New hash table
+ * Return: New hash table
  */
 
 hash_table_t *hash_table_create(unsigned long int size)
