@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- *linear_search - search algorithm
+ *linear_search - search algorithms
  *
  *@array: the array
  *@size: size of the array
